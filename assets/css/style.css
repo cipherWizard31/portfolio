@@ -608,6 +608,13 @@ section {
   background: rgba(69, 80, 91, 0.8);
 }
 
+.portfolio .portfolio-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.7);
@@ -716,6 +723,43 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+
+/*--------------------------------------------------------------
+# See All Certificates Button
+--------------------------------------------------------------*/
+.btn-see-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 32px;
+  background: #0563bb;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.5px;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+  box-shadow: 0 4px 18px rgba(5, 99, 187, 0.25);
+  text-decoration: none;
+}
+
+.btn-see-all i {
+  font-size: 20px;
+  transition: transform 0.25s;
+}
+
+.btn-see-all:hover {
+  background: #0678e3;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(5, 99, 187, 0.35);
+  text-decoration: none;
+}
+
+.btn-see-all:hover i {
+  transform: translateX(4px);
 }
 
 /*--------------------------------------------------------------

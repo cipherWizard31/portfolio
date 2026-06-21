@@ -4,29 +4,30 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Natan Yidnekachew | Portfolio</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+    <title>Natan Yidnekachew | Fullstack Developer Portfolio</title>
+    <meta name="description" content="Natan Yidnekachew is a Fullstack Developer and Backend Specialist based in Addis Ababa, Ethiopia. Expert in Node.js, Next.js, React, and TypeScript." />
+    <meta name="keywords" content="fullstack developer, backend developer, Node.js, Next.js, React, TypeScript, web development, Ethiopia" />
 
     <!-- Favicons -->
     <link href="assets/img/favicon.webp" rel="icon" />
     <link href="assets/img/favicon.webp" rel="apple-touch-icon" />
 
-  <!-- Google Fonts -->
+    <!-- Resource Hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Preload critical hero background -->
+    <link rel="preload" href="assets/img/hero-bg.webp" as="image" />
+
+    <!-- Google Fonts - only weights actually used -->
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;600;700&family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
 
-    <!-- Vendor CSS Files -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
+    <!-- Critical CSS: Bootstrap (render-blocking but necessary for layout) -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
@@ -35,40 +36,20 @@
       referrerpolicy="no-referrer"
     />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
-      integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
-      integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.css"
-      integrity="sha512-iQ3H4A+iyBTP8M4ypX5PrTt2S+G1zmRjf0k0uOASKlFHysV8TL9ZoQyVwPss0D12IBTMoDEHA8+bg8a1viS9Mg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css"
-      integrity="sha512-pmAAV1X4Nh5jA9m+jcvwJXFQvCBi3T17aZ1KWkqXr7g/O2YMvO8rfaa5ETWDuBvRq6fbDjlw4jHL44jNTScaKg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- Deferred non-critical CSS -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.css" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="sha512-iQ3H4A+iyBTP8M4ypX5PrTt2S+G1zmRjf0k0uOASKlFHysV8TL9ZoQyVwPss0D12IBTMoDEHA8+bg8a1viS9Mg==" crossorigin="anonymous" />
+    <noscript>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.css" />
+    </noscript>
   </head>
 
   <body>
@@ -144,7 +125,7 @@
             ><i class="bx bxl-github"></i
           ></a>
           <a
-            href="https://t.me/nathan_yidnekachew"
+            href="https://t.me/cipher_wizard31"
             target="_blank"
             class="telegram"
             ><i class="bx bxl-telegram"></i
@@ -175,7 +156,7 @@
 
           <div class="row">
             <div class="col-lg-4">
-              <img src="assets/img/profile.webp" class="img-fluid" alt="" />
+              <img src="assets/img/profile.webp" class="img-fluid" alt="Natan Yidnekachew" width="400" height="400" />
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content">
               <h3>Fullstack Developer &amp; Backend specialist.</h3>
@@ -377,7 +358,7 @@
           >
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/netflix.webp" class="img-fluid" alt="" />
+                <img src="assets/img/netflix.webp" class="img-fluid" alt="Netflix Clone" loading="lazy" width="400" height="300" />
                 <div class="portfolio-info">
                   <h4>Netflix Clone</h4>
                   <p>Web app</p>
@@ -400,7 +381,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
-                <img src="assets/img/amazon.webp" class="img-fluid" alt="" />
+                <img src="assets/img/amazon.webp" class="img-fluid" alt="Amazon Clone" loading="lazy" width="400" height="300" />
                 <div class="portfolio-info">
                   <h4>Amazon-clone</h4>
                   <p>Web app</p>
@@ -424,7 +405,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/forum.webp" class="img-fluid" alt="" />
+                <img src="assets/img/forum.webp" class="img-fluid" alt="Evangadi Forum" loading="lazy" width="400" height="300" />
                 <div class="portfolio-info">
                   <h4>Evangadi Forum</h4>
                   <p>App</p>
@@ -450,7 +431,10 @@
                 <img
                   src="assets/img/olena-bohovyk-Ft_Wn-K5YH8-unsplash.webp"
                   class="img-fluid"
-                  alt=""
+                  alt="Exam Vault"
+                  loading="lazy"
+                  width="400"
+                  height="300"
                 />
                 <div class="portfolio-info">
                   <h4>Exam Vault</h4>
@@ -475,7 +459,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
-                <img src="assets/img/apple.webp" class="img-fluid" alt="" />
+                <img src="assets/img/apple.webp" class="img-fluid" alt="Apple Clone" loading="lazy" width="400" height="300" />
                 <div class="portfolio-info">
                   <h4>Apple Clone</h4>
                   <p>Web</p>
@@ -512,136 +496,18 @@
             </p>
           </div>
 
-          <div
-            class="row portfolio-container"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/certificates/HTML.webp"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Sololearn</h4>
-                  <p>Introduction to HTML</p>
-                </div>
-              </div>
-            </div>
+          <!-- Certificates rendered by assets/js/certificates.js -->
+          <div class="row portfolio-container" id="cert-grid-home"></div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/certificates/NatanYidnekachew.webp"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Evangadi</h4>
-                  <p>MERN Stack Development</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/certificates/JavaScript.webp"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Sololearn</h4>
-                  <p>Introduction to JavaScript</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/certificates/css.webp"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Sololearn</h4>
-                  <p>Introduction to CSS</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/certificates/ab.webp"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Sololearn</h4>
-                  <p>A/B Testing Using AI</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/certificates/ai1_page-0001.webp"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Ethio coders Initiative (Udemy)</h4>
-                  <p>Artificial Intelligence Fundamentals</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/certificates/learn.udacity.com_view-certificate_nd002-gc-251.webp"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Ethio coders Initiative (Udemy)</h4>
-                  <p>Data analysis fundamentals</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/certificates/Responsive web design.webp"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>FreeCodeCamp</h4>
-                  <p>Responsive Web Design</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/certificates/udacity programming.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Ethio coders Initiative (Udemy)</h4>
-                  <p>Programming Fundamentals</p>
-                </div>
-              </div>
-            </div>
+          <div class="text-center mt-4" data-aos="fade-up">
+            <a href="certificates.html" class="btn-see-all">
+              See All My Certificates <i class="bx bx-right-arrow-alt"></i>
+            </a>
           </div>
         </div>
       </section>
       <!-- End Certificates Section -->
+
 
       <!-- ======= Services Section ======= -->
       <section id="services" class="services">
@@ -971,45 +837,17 @@
       ><i class="bi bi-arrow-up-short"></i
     ></a>
 
-    <!-- Vendor JS Files -->
-    <!-- <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script> -->
+    <!-- Vendor JS Files (deferred for faster initial paint) -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.min.js" integrity="sha512-RBWI5Qf647bcVhqbEnRoL4KuUT+Liz+oG5jtF+HP05Oa5088M9G0GxG0uoHR9cyq35VbjahcI+Hd1xwY8E1/Kg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
-      integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.min.js"
-      integrity="sha512-RBWI5Qf647bcVhqbEnRoL4KuUT+Liz+oG5jtF+HP05Oa5088M9G0GxG0uoHR9cyq35VbjahcI+Hd1xwY8E1/Kg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
-      integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
-      integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <!-- Certificates Data + Renderer -->
+    <script defer src="assets/js/certificates.js"></script>
 
     <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script defer src="assets/js/main.js"></script>
   </body>
 </html>

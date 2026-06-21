@@ -252,16 +252,18 @@
     <!-- Certificates data + renderer -->
     <script defer src="assets/js/certificates.js"></script>
 
-    <script defer>
-      // Show total count badge (runs after certificates.js has rendered the grid)
-      const countEl = document.getElementById('cert-total');
-      if (countEl && typeof CERTIFICATES !== 'undefined') {
-        countEl.textContent = CERTIFICATES.length;
-      }
-      // Init AOS animations
-      if (typeof AOS !== 'undefined') {
-        AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
-      }
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        // Show total count badge (runs after certificates.js has rendered the grid)
+        const countEl = document.getElementById('cert-total');
+        if (countEl && typeof CERTIFICATES !== 'undefined') {
+          countEl.textContent = CERTIFICATES.length;
+        }
+        // Init AOS animations
+        if (typeof AOS !== 'undefined') {
+          AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
+        }
+      });
     </script>
 
   </body>

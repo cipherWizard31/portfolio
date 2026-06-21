@@ -8,57 +8,81 @@
  */
 const CERTIFICATES = [
   {
-    "img": "assets/img/certificates/ab.webp",
-    "issuer": "Sololearn",
-    "title": "A/B Testing Using AI",
+    "img": "assets/img/certificates/AI Fundamentals - Udacity.webp",
+    "issuer": "Certification",
+    "title": "AI Fundamentals   Udacity",
+    "featured": true
+  },
+  {
+    "img": "assets/img/certificates/AI Powered AB testing - Sololearn.webp",
+    "issuer": "Certification",
+    "title": "AI Powered Ab Testing   Sololearn",
+    "featured": true
+  },
+  {
+    "img": "assets/img/certificates/Android Development - Udacity.webp",
+    "issuer": "Certification",
+    "title": "Android Development   Udacity",
+    "featured": true
+  },
+  {
+    "img": "assets/img/certificates/Data Analysis Fundamentals - Udacity.webp",
+    "issuer": "Certification",
+    "title": "Data Analysis Fundamentals   Udacity",
+    "featured": true
+  },
+  {
+    "img": "assets/img/certificates/HTML - Sololearn.webp",
+    "issuer": "Certification",
+    "title": "HTML   Sololearn",
+    "featured": true
+  },
+  {
+    "img": "assets/img/certificates/Intro to CSS - Sololearn.webp",
+    "issuer": "Certification",
+    "title": "Intro To CSS   Sololearn",
     "featured": false
   },
   {
-    "img": "assets/img/certificates/ai1_page-0001.webp",
-    "issuer": "Ethio Coders Initiative (Udemy)",
-    "title": "Artificial Intelligence Fundamentals",
-    "featured": true
-  },
-  {
-    "img": "assets/img/certificates/css.webp",
-    "issuer": "Sololearn",
-    "title": "Introduction to CSS",
+    "img": "assets/img/certificates/Intro to JavaScript - Sololearn.webp",
+    "issuer": "Certification",
+    "title": "Intro To Java Script   Sololearn",
     "featured": false
   },
   {
-    "img": "assets/img/certificates/HTML.webp",
-    "issuer": "Sololearn",
-    "title": "Introduction to HTML",
+    "img": "assets/img/certificates/JavaScript Interrmediate - Sololearn.webp",
+    "issuer": "Certification",
+    "title": "Java Script Interrmediate   Sololearn",
     "featured": false
   },
   {
-    "img": "assets/img/certificates/JavaScript.webp",
-    "issuer": "Sololearn",
-    "title": "Introduction to JavaScript",
-    "featured": true
+    "img": "assets/img/certificates/MERN Stack Development - Evangadi.webp",
+    "issuer": "Certification",
+    "title": "Mern Stack Development   Evangadi",
+    "featured": false
   },
   {
-    "img": "assets/img/certificates/learn.udacity.com_view-certificate_nd002-gc-251.webp",
-    "issuer": "Ethio Coders Initiative (Udemy)",
-    "title": "Data Analysis Fundamentals",
-    "featured": true
+    "img": "assets/img/certificates/Programming Fundamentals - Udacity.webp",
+    "issuer": "Certification",
+    "title": "Programming Fundamentals   Udacity",
+    "featured": false
   },
   {
-    "img": "assets/img/certificates/NatanYidnekachew.webp",
-    "issuer": "Evangadi",
-    "title": "MERN Stack Development",
-    "featured": true
+    "img": "assets/img/certificates/Prompt Engineering - Sololearn.webp",
+    "issuer": "Certification",
+    "title": "Prompt Engineering   Sololearn",
+    "featured": false
   },
   {
-    "img": "assets/img/certificates/Responsive web design.webp",
-    "issuer": "FreeCodeCamp",
-    "title": "Responsive Web Design",
-    "featured": true
+    "img": "assets/img/certificates/Python For Begginers - Sololearn.webp",
+    "issuer": "Certification",
+    "title": "Python For Begginers   Sololearn",
+    "featured": false
   },
   {
-    "img": "assets/img/certificates/udacity-programming.webp",
-    "issuer": "Ethio Coders Initiative (Udemy)",
-    "title": "Programming Fundamentals",
+    "img": "assets/img/certificates/Responsive web design - FreeCodeCamp.webp",
+    "issuer": "Certification",
+    "title": "Responsive Web Design   Free Code Camp",
     "featured": false
   }
 ];
